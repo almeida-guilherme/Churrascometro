@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Guilherme Henrique - Churrascometro">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <link rel="shortcut icon" href="/Assets/logo.png" />
+    <title>Guilherme Henrique - Churrascometro</title>
+</head>
+<body>
+    <header id='cabecalho'>
+        <a href="/index.html"><img id="cabecalhoimagem" src="/Assets/logo.png" alt="logo"></a>
+        <nav id="cabecalhomenunav">
+            <a class="cabecalhomenu" href="https://github.com/guihenriquedev" target="_blank">Git Hub</a>
+            <a class="cabecalhomenu" href="https://www.linkedin.com/in/guilhermenrique/" target="_blank">Linkedin</a>
+            <a class="cabecalhomenu" href="/forms.html" target="_blank">Contato</a>
+            <a class="cabecalhomenu" href="https://www.youtube.com/Guino106" target="_blank">Mais</a>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <section id="conteudoprincipal">
+            <div id="conteudoprincipalescrito">
+                <h1 id="conteudoprincipalescritotitulo">CHURRASCOMETRO</h1>
+            </div>
+            <div>
+                <audio id='audio1' src="/assets/cow sound 1.mp3"></audio>
+                 <audio id='audio2'src="/assets/cow sound 2.mp3"></audio>
+              <img  onclick="cowsound()" class="conteudoprincipalimagem" src="/Assets/cow.png" alt="Imagem">
+            </div>
+        </section>
+
+        <section id="conteudosecundario">
+            <div>
+                <input class="margem" id="adultos" name="adultos" placeholder="adultos" type="number">
+                <input class="margem" id="crianças" name="crianças" placeholder="crianças" type="number">
+                <input class="margem" id="duração" name="duração" placeholder="duração (h)" type="number">
+            </div>
+            <div>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <button type="button" id="conteudoprincipalescritobotao" onclick="generator()">Clique</button>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <img  id="rodapeimagem" src="/Assets/logowo.png" alt="logo">
+    </footer>
+</body>
+</html>
